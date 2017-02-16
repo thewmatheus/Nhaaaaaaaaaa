@@ -1,0 +1,12 @@
+
+
+nivel_ruido = 1
+while nivel_ruido != 0:
+
+ nivel_ruido = input("Digite o valor do sensor: ")
+
+ if nivel_ruido >= 70:
+  print "Nível inadequado de ruído"
+
+else: 
+   print "Nível adequado de ruído"   
