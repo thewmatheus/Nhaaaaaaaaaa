@@ -1,0 +1,12 @@
+#FUNÇÃO DO PAR OU IMPAR
+def ParImpar (numero):
+    if numero%2 == 0:
+        print "O numero par:",numero
+    else: 
+        print "O numero impar:",numero
+
+contador = 0
+maximo = input ("Ate qual numero vamos?: ")
+while contador <= maximo:
+    ParImpar(contador)
+    contador = contador + 1
