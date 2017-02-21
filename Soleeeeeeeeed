@@ -1,5 +1,5 @@
 #FUNÇÃO DO PAR OU IMPAR
-input time
+import time
 def ParImpar (numero):
     if numero%2 == 0:
         print "O numero par:",numero
@@ -11,5 +11,5 @@ maximo = input ("Ate qual numero vamos?: ")
 while contador <= maximo:
     ParImpar(contador)
     contador = contador + 1
-time;sleep(10)
+time.sleep(10)
   
