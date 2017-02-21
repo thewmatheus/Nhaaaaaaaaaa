@@ -1,0 +1,10 @@
+import time 
+
+maximo = 10
+contador = 0
+while contador <= maximo:
+    print "Contagem progressiva: ",contador
+    if contador == maximo:
+        print "Tempo finalizado"
+    contador = contador + 1
+    time.sleep(1)
