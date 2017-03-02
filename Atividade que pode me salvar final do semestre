@@ -1,0 +1,16 @@
+def SensorDiurnoNoturno (ruido, periodo):
+    if periodo == 'Diurno':
+        if ruido >= 70:
+           print "Ruido Inadequado"
+        else:
+           print "Ruido Adequado"
+        
+    if periodo == 'Noturno': 
+        if ruido >= 50:
+           print "Ruido Inadequado"
+        else:
+           print "Ruido Adequado"
+
+periodo = raw_input ("Digite o periodo - Diurno/Noturno: ")         
+ruido = input ("Digite o valor do ruido: ") 
+SensorDiurnoNoturno(ruido,periodo)
