@@ -1,0 +1,97 @@
+#Questão 1
+#numero1 = input ("Digite um numero: ")
+#numero2 = input ("Digite outro numero: ")
+
+#print " A soma dos dois numeros eh:", numero1 + numero2
+
+#Questão 2
+#metros = float(input("Digite um numero: "))
+#milimetros = metros * 1000
+
+#print " O valor em milimetros eh: ", milimetros
+
+#Questao 3
+
+#dias = input("Digite o numero de dias: ")
+#horas = input("Digite o numero de horas: ")
+#minutos = input("Digite o numero de minutos: ")
+#segundos = input("Digite o numero de segundos: ")
+
+#minutos = 60
+#horas = 3600
+#dias = 24 * 3600
+
+#total = segundos + minutos + horas + dias
+
+#print "O total em segundo eh: ", total
+
+#Questao 4
+
+#salario = float(input("Digite o valor do salario: "))
+
+#porcentagem = float(input("Digite a porcentagem do aumento: "))
+
+#aumento = salario * (porcentagem / 100)
+#novo_salario = salario + aumento 
+
+#print "O valor do aumento: R$ ", aumento
+#print "O valor do novo salario: R$ ", novo_salario
+
+#Questao 5
+
+#preco = float(input("Digite o preco do produto: "))
+#percentual = float(input("Digite o percentual de desconto: "))
+
+#desconto = preco * (percentual / 100)
+#novo_preco = preco - desconto
+
+#print "O valor do desconto eh: R$ ", desconto 
+#print "O preco do produto a pagar eh: R$ ", novo_preco
+
+#Questao 6
+
+#distancia = float(input("Digite a distancia a ser percorrida em km: "))
+#velocidade = float(input("Digite a velocidade media em km/h: "))
+
+#tempo = distancia / velocidade
+
+#print "O tempo da viagem em horas será: ", tempo
+
+#Questao 7
+
+#celsius = float(input("Digite a temperatura em celsius: "))
+
+#fahrenheint = 9 * celsius / 5 + 32
+
+#print "A temperatura convertida em fahrenheint sera: ", fahrenheint
+
+
+#Questao 8
+
+#fahrenheint = float(input("Digite a temperatura em fahrenheint: "))
+#celsius =  ((fahrenheint - 32) / 9) * 5
+
+#print "A temperatura convertida em celsius sera: ", celsius
+#Questao 9
+
+#distancia = float(input("Digite a distancia percorrida em Km: "))
+#periodo = float(input("Digite a quantidade de dias em que o carro foi alugado: ")) 
+
+#custo1 = distancia * 0.15
+#custo2 = periodo * 60
+
+#custo_total = custo1 + custo2
+
+#print "O valor total a ser pago eh: R$ ", custo_total
+
+#Questao 10
+
+#cigarros = float(input("Digite o numero de cigarros fumados por dia: "))
+#anos = float(input("Digite o numero de anos que o cidadao fumou: "))
+
+#dias = anos * 365
+#total_fumados = dias * cigarros
+#total_perdidos = total_fumados * 10
+
+#dias_perdidos = total_perdidos / 1440
+#print "Digite o tempo perdido do cidadao: ", dias_perdidos
