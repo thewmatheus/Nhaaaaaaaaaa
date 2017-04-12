@@ -94,4 +94,4 @@
 #total_perdidos = total_fumados * 10
 
 #dias_perdidos = total_perdidos / 1440
-#print "Digite o tempo perdido do cidadao: ", dias_perdidos
+#print "O numero de dias perdidos pelo cidadao foram: ", dias_perdidos
